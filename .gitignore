@@ -1,0 +1,40 @@
+# Build output
+build/
+cmake-build-*/
+out/
+dist/
+
+# Compiler and linker artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.dylib
+*.so
+*.exe
+*.pdb
+*.ilk
+*.exp
+
+# Generated test artifacts
+ff_deflate_test.zip
+ff_deflate_test.png
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+install_manifest.txt
+
+# Editors and OS files
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+.DS_Store
